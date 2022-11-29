@@ -1,6 +1,6 @@
-n = int(input('Entet the value:'))
+n = int(input('Enter the value:'))
 if n%2==0:
-    print('Please Enter Even Number for K Pattern...!')
+    print('Please Enter Odd Number for K Pattern...!')
     exit()
 for row in range(0,n):
 	for col in range(0,int(n/2)+1):
