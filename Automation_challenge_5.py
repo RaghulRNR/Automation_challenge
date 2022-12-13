@@ -12,4 +12,7 @@ for x in list1:
                 reslen=len(x)
                 resString=x
 #print(reslen)
-print('Longest shared sub-string is:',resString)
+if reslen==0:
+    print('No sub-string Matched')
+else:
+    print('Longest shared sub-string is:',resString)
